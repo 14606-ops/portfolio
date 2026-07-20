@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Kanit',sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:white;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+
+}
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+
+    color:#2563eb;
+
+}
+
+.menu{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+.menu li{
+
+    margin-left:30px;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#444;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#2563eb;
+
+}
+
+.active{
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
+
+/* Hero */
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:70px 8%;
+
+}
+
+.hero-text{
+
+    width:55%;
+
+}
+
+.hero-text h1{
+
+    font-size:50px;
+
+}
+
+.hero-text h2{
+
+    margin-top:10px;
+
+    font-size:36px;
+
+}
+
+.hero-text span{
+
+    color:#2563eb;
+
+}
+
+.hero-text p{
+
+    margin-top:20px;
+
+    line-height:1.8;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:14px 35px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.hero-image{
+
+    width:40%;
+
+    text-align:center;
+
+}
+
+.hero-image img{
+
+    width:320px;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+/* About */
+
+.about{
+
+    background:white;
+
+    padding:60px 10%;
+
+    text-align:center;
+
+}
+
+.about h2{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:60px;
+
+    background:#1f2937;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+}
+
+.hero-text{
+
+    width:100%;
+
+}
+
+.hero-image{
+
+    width:100%;
+
+    margin-bottom:40px;
+
+}
+
+.menu{
+
+    display:none;
+
+}
+
+}
