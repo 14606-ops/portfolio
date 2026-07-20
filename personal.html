@@ -3,142 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | มนัสนันท์ มาตรา</title>
+    <title>ประวัติส่วนตัว | มนัสนันท์ มาตรา</title>
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Prompt:wght@300;400;500;600;700&family=Taviraj:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<!-- ===== Navigation ===== -->
-
 <header>
-
     <nav class="navbar">
-
-        <div class="logo">
-            Portfolio
-        </div>
-
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <button class="nav-toggle" aria-label="เปิดเมนู">
+            <span></span><span></span><span></span>
+        </button>
         <ul>
-
-            <li><a href="index.html" class="active">หน้าหลัก</a></li>
+            <li><a href="index.html">หน้าหลัก</a></li>
             <li><a href="education.html">การศึกษา</a></li>
-            <li><a href="personal.html">ประวัติส่วนตัว</a></li>
-            <li><a href="activities.html">ผลงาน/กิจกรรม</a></li>
+            <li><a href="personal.html" class="active">ประวัติส่วนตัว</a></li>
+            <li><a href="award.html">ผลงาน</a></li>
+            <li><a href="activities.html">กิจกรรม</a></li>
             <li><a href="contact.html">ติดต่อ</a></li>
-
         </ul>
-
     </nav>
-
 </header>
 
-
-<!-- ===== Hero ===== -->
-
-<section class="hero">
-
-    <div class="hero-text">
-
-        <h1>สวัสดีค่ะ</h1>
-
-        <h2>ดิฉัน <span>นางสาว มนัสนันท์ มาตรา</span></h2>
-
-        <p>
-            ยินดีต้อนรับสู่เว็บไซต์ Portfolio
-            เว็บไซต์นี้จัดทำขึ้นเพื่อแสดงประวัติส่วนตัว
-            ประวัติการศึกษา ผลงาน กิจกรรม
-            และช่องทางการติดต่อของผม
-        </p>
-
-        <a href="personal.html" class="btn">
-            รู้จักฉันเพิ่มเติม
-        </a>
-
-    </div>
-
-    <div class="hero-image">
-
-        <img src="images/profile.jpg" alt="Profile">
-
-    </div>
-
+<section class="page-hero">
+    <span class="eyebrow">Personal Info</span>
+    <h1>ประวัติส่วนตัว</h1>
+    <p>ข้อมูลเบื้องต้นเกี่ยวกับตัวดิฉัน — แก้ไขรายละเอียดในตารางด้านล่างให้ตรงกับตัวคุณเอง</p>
 </section>
 
+<section>
+    <div class="profile-wrap">
 
-<!-- ===== About ===== -->
+        <div class="profile-photo">
+            <div class="frame">
+                <img src="images/profile.jpg" alt="รูปโปรไฟล์ของมนัสนันท์ มาตรา">
+            </div>
+        </div>
 
-<section class="about">
+        <table class="info-table">
+            <tr>
+                <td>ชื่อ-นามสกุล</td>
+                <td>นางสาว มนัสนันท์ มาตรา</td>
+            </tr>
+            <tr>
+                <td>ชื่อเล่น</td>
+                <td>แก้ไขตรงนี้ เช่น "แก้ว" / "มิ้นท์"</td>
+            </tr>
+            <tr>
+                <td>วัน/เดือน/ปีเกิด</td>
+                <td>แก้ไขตรงนี้ เช่น 1 มกราคม 2551</td>
+            </tr>
+            <tr>
+                <td>กำลังศึกษา</td>
+                <td>ชั้นมัธยมศึกษาปีที่ 6 แผนการเรียน แก้ไขตรงนี้</td>
+            </tr>
+            <tr>
+                <td>สถานศึกษา</td>
+                <td>โรงเรียน แก้ไขตรงนี้</td>
+            </tr>
+            <tr>
+                <td>ที่อยู่ (จังหวัด)</td>
+                <td>แก้ไขตรงนี้</td>
+            </tr>
+            <tr>
+                <td>คติประจำใจ</td>
+                <td>แก้ไขตรงนี้</td>
+            </tr>
+            <tr>
+                <td>ความสามารถพิเศษ</td>
+                <td>แก้ไขตรงนี้ เช่น วาดภาพ, เล่นดนตรี, กีฬา</td>
+            </tr>
+            <tr>
+                <td>งานอดิเรก</td>
+                <td>แก้ไขตรงนี้</td>
+            </tr>
+        </table>
+    </div>
 
-    <h2>Portfolio Website</h2>
-
-    <p>
-
-        เว็บไซต์นี้จัดทำขึ้นเพื่อใช้ประกอบการสมัครเข้าศึกษาต่อ
-        และรวบรวมผลงานที่ภาคภูมิใจ ทั้งด้านวิชาการ
-        กิจกรรม และทักษะต่าง ๆ
-        โดยสามารถเลือกดูข้อมูลจากเมนูด้านบนได้
-
-    </p>
-
+    <div class="quote-block">
+        “ใส่คำคมหรือคติประจำใจของคุณตรงนี้ — ประโยคสั้น ๆ ที่สะท้อนตัวตนของคุณ”
+    </div>
 </section>
-
-
-<!-- ===== Highlight ===== -->
-
-<section class="cards">
-
-    <div class="card">
-
-        <h3>🎓 การศึกษา</h3>
-
-        <p>
-            ประวัติการศึกษาและผลการเรียน
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <h3>🏆 ผลงาน</h3>
-
-        <p>
-            เกียรติบัตร การแข่งขัน และกิจกรรม
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <h3>📞 ติดต่อ</h3>
-
-        <p>
-            ช่องทางการติดต่อและ Social Media
-        </p>
-
-    </div>
-
-</section>
-
 
 <footer>
-
-    <p>
-
-        © 2026 Portfolio | ชื่อของคุณ
-
-    </p>
-
+    <p>© 2026 Portfolio | มนัสนันท์ มาตรา — จัดทำเพื่อประกอบการสมัครเรียน</p>
 </footer>
 
 <script src="js/script.js"></script>
-
 </body>
 </html>

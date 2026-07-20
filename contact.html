@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อ | มนัสนันท์ มาตรา</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Prompt:wght@300;400;500;600;700&family=Taviraj:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <button class="nav-toggle" aria-label="เปิดเมนู">
+            <span></span><span></span><span></span>
+        </button>
+        <ul>
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li><a href="education.html">การศึกษา</a></li>
+            <li><a href="personal.html">ประวัติส่วนตัว</a></li>
+            <li><a href="award.html">ผลงาน</a></li>
+            <li><a href="activities.html">กิจกรรม</a></li>
+            <li><a href="contact.html" class="active">ติดต่อ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <span class="eyebrow">Get in touch</span>
+    <h1>ช่องทางติดต่อ</h1>
+    <p>สามารถติดต่อดิฉันได้ตามช่องทางด้านล่างนี้ — แก้ไขข้อมูลให้ตรงกับช่องทางจริงของคุณ</p>
+</section>
+
+<section>
+    <div class="contact-grid">
+
+        <div class="contact-card">
+            <div class="icon">✉</div>
+            <h3>อีเมล</h3>
+            <p>example@email.com</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">☎</div>
+            <h3>เบอร์โทรศัพท์</h3>
+            <p>0XX-XXX-XXXX</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">◈</div>
+            <h3>Facebook</h3>
+            <p>facebook.com/แก้ไขตรงนี้</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">◇</div>
+            <h3>Instagram</h3>
+            <p>@แก้ไขตรงนี้</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">▣</div>
+            <h3>Line ID</h3>
+            <p>แก้ไขตรงนี้</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">⌘</div>
+            <h3>GitHub</h3>
+            <p>github.com/แก้ไขตรงนี้</p>
+        </div>
+
+    </div>
+
+    <form class="contact-form" onsubmit="return false;">
+        <label for="name">ชื่อผู้ติดต่อ</label>
+        <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ">
+
+        <label for="email">อีเมลติดต่อกลับ</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com">
+
+        <label for="message">ข้อความ</label>
+        <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความที่ต้องการติดต่อ"></textarea>
+
+        <button type="submit" class="btn">ส่งข้อความ</button>
+        <p style="color: var(--smoke); font-size: 0.8rem; margin-top: 14px;">
+            * เว็บไซต์นี้โฮสต์แบบ Static บน GitHub Pages แบบฟอร์มนี้จึงยังไม่ได้เชื่อมต่อระบบส่งอีเมลจริง
+            หากต้องการใช้งานได้จริง แนะนำให้ติดต่อผ่านช่องทางด้านบนแทน
+        </p>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Portfolio | มนัสนันท์ มาตรา — จัดทำเพื่อประกอบการสมัครเรียน</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

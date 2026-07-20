@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กิจกรรม | มนัสนันท์ มาตรา</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Prompt:wght@300;400;500;600;700&family=Taviraj:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <button class="nav-toggle" aria-label="เปิดเมนู">
+            <span></span><span></span><span></span>
+        </button>
+        <ul>
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li><a href="education.html">การศึกษา</a></li>
+            <li><a href="personal.html">ประวัติส่วนตัว</a></li>
+            <li><a href="award.html">ผลงาน</a></li>
+            <li><a href="activities.html" class="active">กิจกรรม</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <span class="eyebrow">Activities</span>
+    <h1>กิจกรรม</h1>
+    <p>กิจกรรมในโรงเรียนและนอกโรงเรียนที่เคยเข้าร่วม — คลิกที่รูปภาพเพื่อดูขนาดใหญ่</p>
+</section>
+
+<section>
+    <div class="gallery-intro">
+        <p>
+            ตัวอย่างการ์ดกิจกรรมด้านล่างนี้ใช้รูปภาพตัวอย่างชั่วคราว
+            ให้แทนที่ไฟล์ในโฟลเดอร์ <code>images/</code> และแก้ไขหัวข้อ/คำอธิบายให้ตรงกับกิจกรรมจริงของคุณ
+        </p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item" data-full="images/gallery-1.jpg" data-caption="กิจกรรม — ตัวอย่างที่ 1: แก้ไขคำอธิบายให้ตรงกับกิจกรรมจริง">
+            <div class="thumb-wrap">
+                <img src="images/gallery-1.jpg" alt="กิจกรรมตัวอย่างที่ 1">
+                <span class="zoom-tag">คลิกเพื่อขยาย</span>
+            </div>
+            <div class="caption">
+                <h4>ชื่อกิจกรรม (แก้ไขตรงนี้)</h4>
+                <p>ปี แก้ไขตรงนี้ · สถานที่/ผู้จัด แก้ไขตรงนี้</p>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-full="images/gallery-1.jpg" data-caption="กิจกรรม — ตัวอย่างที่ 2: แก้ไขคำอธิบายให้ตรงกับกิจกรรมจริง">
+            <div class="thumb-wrap">
+                <img src="images/gallery-1.jpg" alt="กิจกรรมตัวอย่างที่ 2">
+                <span class="zoom-tag">คลิกเพื่อขยาย</span>
+            </div>
+            <div class="caption">
+                <h4>ชื่อกิจกรรม (แก้ไขตรงนี้)</h4>
+                <p>ปี แก้ไขตรงนี้ · สถานที่/ผู้จัด แก้ไขตรงนี้</p>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-full="images/gallery-1.jpg" data-caption="กิจกรรม — ตัวอย่างที่ 3: แก้ไขคำอธิบายให้ตรงกับกิจกรรมจริง">
+            <div class="thumb-wrap">
+                <img src="images/gallery-1.jpg" alt="กิจกรรมตัวอย่างที่ 3">
+                <span class="zoom-tag">คลิกเพื่อขยาย</span>
+            </div>
+            <div class="caption">
+                <h4>ชื่อกิจกรรม (แก้ไขตรงนี้)</h4>
+                <p>ปี แก้ไขตรงนี้ · สถานที่/ผู้จัด แก้ไขตรงนี้</p>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-full="images/gallery-1.jpg" data-caption="กิจกรรม — ตัวอย่างที่ 4: แก้ไขคำอธิบายให้ตรงกับกิจกรรมจริง">
+            <div class="thumb-wrap">
+                <img src="images/gallery-1.jpg" alt="กิจกรรมตัวอย่างที่ 4">
+                <span class="zoom-tag">คลิกเพื่อขยาย</span>
+            </div>
+            <div class="caption">
+                <h4>ชื่อกิจกรรม (แก้ไขตรงนี้)</h4>
+                <p>ปี แก้ไขตรงนี้ · สถานที่/ผู้จัด แก้ไขตรงนี้</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== Lightbox modal ===== -->
+<div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="ปิด">✕</button>
+        <button class="lightbox-prev" aria-label="ก่อนหน้า">‹</button>
+        <img src="" alt="">
+        <p class="lightbox-caption"></p>
+        <button class="lightbox-next" aria-label="ถัดไป">›</button>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Portfolio | มนัสนันท์ มาตรา — จัดทำเพื่อประกอบการสมัครเรียน</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
